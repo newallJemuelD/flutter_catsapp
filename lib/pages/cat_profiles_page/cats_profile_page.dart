@@ -69,7 +69,7 @@ class _CatsProfilePageState extends State<CatsProfilePage> {
               size: 30,
             ),
             backgroundColor: Colors.white,
-            title: AppbarContentWidget(),
+            title: Appbar(),
             actions: [
               Padding(
                 padding: EdgeInsets.all(15),

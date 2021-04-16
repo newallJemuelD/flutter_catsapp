@@ -1,6 +1,8 @@
+import 'package:flutter/material.dart';
+
 import 'package:cats_app/models/cats_profile.dart';
 import 'package:cats_app/pages/profile_description_page/profile_description_page.dart';
-import 'package:flutter/material.dart';
+import 'package:cats_app/styles/styles.dart';
 
 class CatprofilesListWidget extends StatelessWidget {
   const CatprofilesListWidget({
@@ -42,7 +44,7 @@ class CatprofilesListWidget extends StatelessWidget {
               width: 100,
               decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
+                borderRadius: ContainerBorder.primaryContainer,
               ),
               child: Row(
                 children: [
@@ -50,7 +52,7 @@ class CatprofilesListWidget extends StatelessWidget {
                     width: 150,
                     height: 150,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: ContainerBorder.primaryContainer,
                       image: DecorationImage(
                         image: AssetImage(
                             catsProfile.catsProfileList[index].image),
