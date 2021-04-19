@@ -7,7 +7,7 @@ class BackgroundColor {
 
 class TextColor {
   static final primaryColor = Colors.black;
-  static final secondayColor = Colors.grey[300];
+  static final secondaryColor = Colors.grey[300];
   static final tertiaryColor = Colors.white;
 }
 

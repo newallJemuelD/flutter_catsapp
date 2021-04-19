@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:cats_app/styles/styles.dart';
+
 class Appbar extends StatelessWidget {
   const Appbar({
     Key key,
@@ -12,7 +14,7 @@ class Appbar extends StatelessWidget {
         Text(
           "Location",
           style: TextStyle(
-            color: Colors.grey,
+            color: TextColor.secondaryColor,
             fontSize: 17,
           ),
         ),
@@ -23,7 +25,7 @@ class Appbar extends StatelessWidget {
               padding: EdgeInsets.all(5),
               child: Icon(
                 Icons.location_on,
-                color: Colors.green[700],
+                color: IconsColor.primaryColor,
               ),
             ),
             Text(
