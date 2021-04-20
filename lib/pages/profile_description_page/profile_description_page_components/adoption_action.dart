@@ -24,12 +24,12 @@ class AdoptionAction extends StatelessWidget {
             padding: EdgeInsets.all(20),
             margin: EdgeInsets.fromLTRB(30, 0, 30, 0),
             decoration: BoxDecoration(
-              color: Colors.green[700],
+              color: IconsColor.primaryColor,
               borderRadius: ContainerBorder.secondaryContainer,
             ),
             child: Icon(
               Icons.thumb_up_alt_outlined,
-              color: Colors.white,
+              color: IconsColor.secondaryColor,
             ),
           ),
           Container(
@@ -41,7 +41,7 @@ class AdoptionAction extends StatelessWidget {
             child: Text(
               'Adoption',
               style: TextStyle(
-                color: Colors.white,
+                color: TextColor.tertiaryColor,
                 fontWeight: FontWeight.bold,
                 fontSize: 17,
               ),

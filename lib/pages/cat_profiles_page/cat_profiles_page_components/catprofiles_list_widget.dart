@@ -68,10 +68,7 @@ class CatprofilesListWidget extends StatelessWidget {
                       children: [
                         Text(
                           catsProfile.catsProfileList[index].name,
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                          ),
+                          style: HeaderFonts.primaryText,
                         ),
                         Text(catsProfile.catsProfileList[index].breedName),
                         Text(
@@ -82,7 +79,7 @@ class CatprofilesListWidget extends StatelessWidget {
                           children: [
                             Icon(
                               Icons.location_on,
-                              color: Colors.green[700],
+                              color: IconsColor.primaryColor,
                             ),
                             Text(
                               'Distance ${catsProfile.catsProfileList[index].distance}km',

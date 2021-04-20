@@ -1,3 +1,4 @@
+import 'package:cats_app/styles/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:cats_app/models/cats_profile.dart';
 import 'cat_profiles_page_components/appbar_content_widget.dart';
@@ -65,7 +66,7 @@ class _CatsProfilePageState extends State<CatsProfilePage> {
             toolbarHeight: 100,
             leading: Icon(
               Icons.menu,
-              color: Colors.black,
+              color: IconsColor.primaryColor,
               size: 30,
             ),
             backgroundColor: Colors.white,

@@ -13,10 +13,7 @@ class Appbar extends StatelessWidget {
       children: [
         Text(
           "Location",
-          style: TextStyle(
-            color: TextColor.secondaryColor,
-            fontSize: 17,
-          ),
+          style: HeaderFonts.tertiaryText,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
